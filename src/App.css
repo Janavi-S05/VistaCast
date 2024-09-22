@@ -1,0 +1,164 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  background: url('./assets/background.gif') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container{
+  margin: auto;
+  margin-top:15px;
+  width: 300px;
+  padding: 15px;
+  background-color: #ffffff63;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 2px solid #3f7496;
+  /* background: linear-gradient(to right,  #87CEFA, #1E90FF); */
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.cityInput{
+  flex:1;
+  /* height:10px; */
+  border: none;
+  font-size: 16px;
+  outline: none;
+  padding: 8px;
+  color:#f3f5f3f3;
+  background: transparent;
+}
+
+.search-icon{
+   padding: 8px;
+   height: 30px;
+   cursor: pointer;
+}
+
+.search-icon img{
+  margin-top: 5px;
+  width:18px;
+}
+
+.image{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height:150px;
+}
+.image img{
+  width: 160px;
+  height: 160px;
+}
+
+.temp,.country,.location{
+  margin-top: 5px;
+  font-size: 35px;
+  text-transform: uppercase;
+  text-align: center;
+  background: linear-gradient(to right,  #787373, #0660aa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.temp{
+  font-weight: 500;
+}
+
+.location{
+  color: #ffbc00;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.country{
+  font-size: 18px;
+  color:#888;
+  font-weight: 600;
+}
+
+.cord{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.cord div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:10px;
+}
+
+.cord div span{
+  font-size: 14px;
+  color:#513b3b;
+}
+
+.percent,
+.cord div span:nth-child(2){
+  font-size: 18px;
+  font-weight: bold;
+  color:#666;
+  padding-top: 10px;
+}
+
+.element img{
+  width: 50px;
+}
+
+.data-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.data{
+  text-align: center;
+}
+
+.text{
+  font-size: 14px;
+  font-style: italic;
+  color:#4e92bc;
+}
+
+.copyright{
+  text-align: center;
+  font-size: 12px;
+  color:#3f7496;
+
+}
+
+.copyright span{
+  color:#333;
+}
+
+.loading-msg,.error-msg,.cityNotFound{
+  margin-top: 10px;
+  color: #564e4e;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+}
