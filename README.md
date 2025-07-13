@@ -1,4 +1,4 @@
-## VistaCast 🌦️
+## Weatherly 🌦️
 This is a simple weather application built using React that fetches real-time weather data from the OpenWeatherMap API. The app allows users to search for weather information by city and provides details such as temperature, humidity, wind speed, and more.
 
 ## Features
